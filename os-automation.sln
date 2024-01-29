@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anon-message-loop", "anon-message-loop\anon-message-loop.csproj", "{EA707898-B59C-4386-AC8E-4B2D30BC1A04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anon-api", "keyboard-tools\loggers\anon-api\anon-api.csproj", "{3FAD952D-B775-4F2B-A0A2-E787B3AE93F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anon-message-loop", "keyboard-tools\loggers\anon-message-loop\anon-message-loop.csproj", "{E8434E36-136E-4439-956D-B275FC4262FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EA707898-B59C-4386-AC8E-4B2D30BC1A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA707898-B59C-4386-AC8E-4B2D30BC1A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA707898-B59C-4386-AC8E-4B2D30BC1A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA707898-B59C-4386-AC8E-4B2D30BC1A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FAD952D-B775-4F2B-A0A2-E787B3AE93F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAD952D-B775-4F2B-A0A2-E787B3AE93F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAD952D-B775-4F2B-A0A2-E787B3AE93F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAD952D-B775-4F2B-A0A2-E787B3AE93F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8434E36-136E-4439-956D-B275FC4262FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8434E36-136E-4439-956D-B275FC4262FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8434E36-136E-4439-956D-B275FC4262FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8434E36-136E-4439-956D-B275FC4262FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
