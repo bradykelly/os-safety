@@ -5,6 +5,8 @@
       <Path>keyloggers</Path>
     </attachedFolders>
     <explicitIncludes />
-    <explicitExcludes />
+    <explicitExcludes>
+      <Path>keyloggers/anon-api</Path>
+    </explicitExcludes>
   </component>
 </project>

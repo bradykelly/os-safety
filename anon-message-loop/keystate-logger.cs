@@ -1,17 +1,17 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace basic_console;
+namespace anon_message_loop;
 
-public interface ILogger
+public class KeystateLogger: ILogger
 {
     [DllImport("user32.dll")]
     public static extern int GetAsyncKeyState(Int32 i);
-    
-    public void LogKeyStates()
+
+    public void LogKeyState(int startDelayMilliseconds)
     {
         while (true)
         {
-            Thread.Sleep(100);
+            Thread.Sleep(startDelayMilliseconds);
 
             for (int i = 0; i < 255; i++)
             {
@@ -23,8 +23,11 @@ public interface ILogger
                     break;
                 }
             }
-
-            return;
         }
+    }
+
+    public void Log(int initDelayMilliseconds)
+    {
+        LogKeyState(initDelayMilliseconds);
     }
 }
