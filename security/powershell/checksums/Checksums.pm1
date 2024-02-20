@@ -1,0 +1,9 @@
+﻿function Get_ChecksumDiff
+{
+    param(
+        [String $filePath1],
+        [string $checksum]
+    )
+
+    
+}

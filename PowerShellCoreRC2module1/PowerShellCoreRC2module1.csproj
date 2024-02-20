@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>PowerShellCoreRC2module1</AssemblyName>
+        <DefaultNamespace>PowerShellCoreRC2module1</DefaultNamespace>
+
+        <TargetFramework>netcoreapp2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.PowerShell.SDK" Version="6.0.0-rc.2"/>
+    </ItemGroup>
+</Project>

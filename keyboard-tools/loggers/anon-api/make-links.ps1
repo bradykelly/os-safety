@@ -1,1 +1,0 @@
-New-Item -Path C:\projects\KeystrokeAPI -ItemType SymbolicLink -Value C:\projects\os-automation\KeystrokeAPI

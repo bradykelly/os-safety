@@ -5,9 +5,9 @@ namespace anon_message_loop;
 public class KeystateLogger: ILogger
 {
     [DllImport("user32.dll")]
-    public static extern int GetAsyncKeyState(Int32 i);
+    private static extern int GetAsyncKeyState(Int32 i);
 
-    public void LogKeyState(int startDelayMilliseconds)
+    private void LogKeyState(int startDelayMilliseconds)
     {
         while (true)
         {

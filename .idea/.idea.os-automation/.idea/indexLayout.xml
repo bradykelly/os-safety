@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="UserContentModel">
+    <attachedFolders>
+      <Path>security</Path>
+    </attachedFolders>
+    <explicitIncludes />
+    <explicitExcludes>
+      <Path>keyloggers/anon-api</Path>
+    </explicitExcludes>
+  </component>
+</project>
